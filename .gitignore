@@ -1,0 +1,38 @@
+# ---- Large model weights (published on Hugging Face, fetched with scripts/download_models_from_hf.py) ----
+models/**/*.safetensors
+models/**/*.bin
+models/**/pytorch_model*
+models/**/model.safetensors
+models/base_mdeberta_v3/
+
+# ---- Data (challenge-provided, not redistributable) ----
+data/train/
+data/test/
+data/**/*.tsv
+data/**/*.csv
+
+# ---- Pipeline working dirs and outputs ----
+work/
+output/
+*.parquet
+*.faiss
+*.index
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# ---- Logs ----
+*.log

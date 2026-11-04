@@ -1,0 +1,28 @@
+# Python 3.11.16, CUDA 12.4 (NVIDIA driver >= 550). Tested on Linux x86_64 with NVIDIA A100 40GB GPUs.
+# torch CUDA wheels:  pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+transformers==5.17.0
+tokenizers==0.23.2
+sentencepiece==0.2.2
+protobuf==7.36.2
+safetensors==0.8.0
+accelerate==1.15.0
+huggingface_hub==1.33.0
+sentence-transformers==6.1.0
+datasets==5.0.1
+faiss-gpu-cu12==1.14.1.post1
+lightgbm==4.7.0
+xgboost==3.2.0
+scikit-learn==1.9.1
+scipy==1.17.1
+numpy==2.4.6
+polars==1.44.2
+polars-runtime-32==1.44.2
+pyarrow==25.0.1
+pandas==3.0.6
+RapidFuzz==3.14.6
+joblib==1.6.0
+regex==2026.9.10
+anyascii==0.3.3
+Unidecode==1.4.0
+indic_transliteration==2.3.82
