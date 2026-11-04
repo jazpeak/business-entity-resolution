@@ -222,7 +222,7 @@ python src/utils/validate_submission.py \
 
 Developed by team **iiit_fishes** for ML Challenge 2026:
 
-- Jazl Anwar (team leader)
+- Jazl Anwar 
 - Satvik Mittal
 - Arul Thiruvasagam A
 - Abhay Trehan
