@@ -26,7 +26,7 @@ The fine-tuned transformer weights are too large for git and are published on th
 ### Option A — download the published weights
 
 ```bash
-python ../scripts/download_models_from_hf.py --repo <your-hf-user>/business-entity-resolution-models --dest .
+python ../scripts/download_models_from_hf.py --repo jazl26/business-entity-resolution-models --dest .
 ```
 
 ### Option B — rebuild from the training data

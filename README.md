@@ -168,10 +168,10 @@ Every model is **MIT- or Apache-2.0-licensed and ≤ 8B parameters**, per the ch
 | `prefilter_lgbm` | LightGBM | candidate prefilter | ✅ included (`models/prefilter_lgbm.txt`) |
 | `fusion` | XGBoost + logistic decoder | final fusion | ✅ included (`models/fusion/`) |
 
-The five fine-tuned transformer weights total ~5.5 GB — too large for a normal git repo — so they live on the Hugging Face Hub. Fetch them into `models/` with:
+The five fine-tuned transformer weights total ~5.5 GB — too large for a normal git repo — so they live on the Hugging Face Hub at **[jazl26/business-entity-resolution-models](https://huggingface.co/jazl26/business-entity-resolution-models)**. Fetch them into `models/` with:
 
 ```bash
-python scripts/download_models_from_hf.py --repo <your-hf-user>/business-entity-resolution-models
+python scripts/download_models_from_hf.py --repo jazl26/business-entity-resolution-models
 ```
 
 Or rebuild them from scratch with `bash run_training.sh`. See [`models/README.md`](models/README.md) for details.
